@@ -1,0 +1,29 @@
+{
+  "id": 1,
+  "name": "Test Level",
+  "objects": [
+    {
+      "conditionId": 1,
+      "objectType": "1",
+      "x": 500,
+      "y": 0,
+      "hasGravity": true
+    }
+  ],
+  "gravity": 1000,
+  "width": 800,
+  "height": 600,
+  "baseLine": 0,
+  "playerStart": { "x": 10, "y": 0 },
+  "conditions": [
+    {
+      "conditionType": "win",
+      "when": "end",
+      "objects": {
+        "0": "0",
+        "1": "1"
+      }
+    }
+  ]
+}
+
